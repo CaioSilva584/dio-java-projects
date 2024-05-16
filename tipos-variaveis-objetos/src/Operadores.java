@@ -6,7 +6,6 @@ import java.text.DecimalFormat;
 public class Operadores {
 
     public static void main(String[] args) {
-        DecimalFormat df = new DecimalFormat("##0,00");
 
         // Concatenação (apenas com string ou char)
         String concatenacao = "";
@@ -58,5 +57,14 @@ public class Operadores {
         // Valores booleanos
 
         boolean verdadeiro = false;
+
+        System.out.println(!verdadeiro);
+
+        // Ternário
+        int a = 3;
+        int b = 5;
+        String expressao = a==b ? "Verdade" : "Mentira";
+
+        System.out.println(expressao);
     }
 }
