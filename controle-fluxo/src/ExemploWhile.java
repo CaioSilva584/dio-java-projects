@@ -1,9 +1,7 @@
-import java.text.DecimalFormat;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ExemploWhile {
     public static void main(String[] args) {
-        DecimalFormat df = new DecimalFormat("##0,00");
         double mesada = 50.00;
 
         while (mesada > 0) {

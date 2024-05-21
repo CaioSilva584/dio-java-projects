@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import java.util.InputMismatchException;
-import java.util.Locale;
 
 public class AboutMe {
     public static void main(String[] args) {

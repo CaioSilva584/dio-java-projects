@@ -3,6 +3,8 @@ public class FormatadorCep {
         // Tratamento decorrente do uso da classe "Exception"
         try {
             String cep = formatarCep("23765064");
+
+            System.out.println(cep);
         } catch (Exception e) {
             e.printStackTrace();
         }

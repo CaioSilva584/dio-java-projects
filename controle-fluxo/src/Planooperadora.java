@@ -1,4 +1,4 @@
-public class Planooperadora {
+public class PlanoOperadora {
     public static void main(String[] args) throws Exception {
         String plano = "M";
 
@@ -17,8 +17,8 @@ public class Planooperadora {
             }
         }
 
-        for (String string : args) {
+        /*for (String string : args) {
             
-        }
+        }*/
     }
 }
