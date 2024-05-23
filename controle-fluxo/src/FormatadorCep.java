@@ -1,11 +1,11 @@
 public class FormatadorCep {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         // Tratamento decorrente do uso da classe "Exception"
         try {
             String cep = formatarCep("23765064");
 
             System.out.println(cep);
-        } catch (Exception e) {
+        } catch (CepInvalidoException e) {
             e.printStackTrace();
         }
     }

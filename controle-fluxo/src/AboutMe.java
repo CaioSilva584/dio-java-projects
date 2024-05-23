@@ -10,7 +10,7 @@ public class AboutMe {
             System.out.println("Digite seu nome: ");
             String nome = scan.next();
 
-            System.out.println("Digite seu nome: ");
+            System.out.println("Digite seu sobrenome: ");
             String sobrenome = scan.next();
 
             System.out.println("Digite sua idade: ");
