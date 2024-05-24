@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"edu.caio.model","c":"Calculadora","l":"Calculadora()","url":"%3Cinit%3E()"},{"p":"edu.caio.model","c":"Calculadora","l":"somar(int, int)","url":"somar(int,int)"}]
